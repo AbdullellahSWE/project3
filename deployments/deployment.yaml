@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: analytics-app
-        image: 547318948247.dkr.ecr.us-east-1.amazonaws.com/coworking-space-microservice:2
+        image: 545354473126.dkr.ecr.us-east-1.amazonaws.com/project3:3
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
