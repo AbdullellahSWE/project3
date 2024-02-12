@@ -21,13 +21,13 @@ spec:
         livenessProbe:
           httpGet:
             path: /health_check
-            port: 5050
+            port: 5153
           initialDelaySeconds: 5
           timeoutSeconds: 2
         readinessProbe:
           httpGet:
             path: "/readiness_check"
-            port: 5050
+            port: 5153
           initialDelaySeconds: 5
           timeoutSeconds: 5
         env:

@@ -8,5 +8,5 @@ spec:
   ports:
   - name: "5050"
     protocol: TCP
-    port: 5050
-    targetPort: 5050
+    port: 5153
+    targetPort: 5153
