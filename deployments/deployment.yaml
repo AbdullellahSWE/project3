@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: analytics-app
-        image: 545354473126.dkr.ecr.us-east-1.amazonaws.com/project3:3
+        image: 545354473126.dkr.ecr.us-east-1.amazonaws.com/project3:5
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
